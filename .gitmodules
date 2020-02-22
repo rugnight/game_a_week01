@@ -1,0 +1,3 @@
+[submodule "Submodules/net.rugnight"]
+	path = Submodules/net.rugnight
+	url = git@github.com:rugnight/net.rugnight.git
