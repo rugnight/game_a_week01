@@ -1,3 +1,6 @@
 [submodule "Submodules/net.rugnight"]
 	path = Submodules/net.rugnight
 	url = git@github.com:rugnight/net.rugnight.git
+[submodule "Submodules/game_a_week01.wiki"]
+	path = Submodules/game_a_week01.wiki
+	url = https://github.com/rugnight/game_a_week01.wiki.git
