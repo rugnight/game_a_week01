@@ -1,9 +1,13 @@
 Welcome to the game_a_week01 wiki!
 
+
+## gitconfig設定
+
 ```
 git config --global core.autoCRLF false
 ```
 
+## net.rugnight.rc サブモジュール設定
 
 ```
 mkdir Submodules
@@ -14,4 +18,10 @@ git commit -m "submodule追加"
 git push
 ```
 
-![](images/2020-02-22-11-51-51.png)
+```.json
+{
+  "dependencies": {
+    "net.rugnight.rc": "file:../Submodules/net.rugnight/Assets/Rc",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.tilemap": "1.0.0",
+```
